@@ -1,7 +1,7 @@
 ﻿
 int choice = Utility.choice;
 int num1 = Utility.num1;
-int num2 = Utility.num1;
+int num2 = Utility.num2;
 
 
 while (choice != -1)
@@ -39,9 +39,6 @@ while (choice != -1)
                 break;
             case 4:
                 answer = Utility.Quotient(num1, num2);
-                break;
-            case 5:
-                answer = Utility.Fibonnaci(num1, num2);
                 break;
             default:
                 throw new Exception("Invalid Menu Item Selected.");
